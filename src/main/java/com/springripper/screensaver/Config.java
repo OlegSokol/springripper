@@ -6,7 +6,7 @@ import java.awt.*;
 import java.util.Random;
 
 @Configuration
-@ComponentScan(basePackages = "com.springripper.screensaver")
+@ComponentScan(basePackages = "com.springripper")
 public class Config {
 
     @Bean

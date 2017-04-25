@@ -1,7 +1,7 @@
 package com.springripper.controller;
 
 public class ProfilingController implements ProfilingControllerMBean {
-    private boolean enableed;
+    private boolean enableed = true;
 
     public boolean isEnableed() {
         return enableed;
